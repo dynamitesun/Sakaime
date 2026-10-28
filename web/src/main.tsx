@@ -1,0 +1,10 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "@fontsource/shippori-mincho/500.css";
+import "@fontsource/shippori-mincho/600.css";
+import "@fontsource/zen-kaku-gothic-new/400.css";
+import "@fontsource/zen-kaku-gothic-new/500.css";
+import "@fontsource/zen-kaku-gothic-new/700.css";
+import "./styles.css";
+import { Sakaime } from "@/components/sakaime/sakaime";
+createRoot(document.getElementById("root")!).render(<StrictMode><Sakaime /></StrictMode>);
